@@ -1,17 +1,18 @@
 import NextAuth, { DefaultSession } from "next-auth"
 import "next-auth/jwt"
 import bcrypt from "bcrypt"
-import Auth0 from "next-auth/providers/auth0"
-import GitHub from "next-auth/providers/github"
-import Google from "next-auth/providers/google"
 import CredentialsProvider from "next-auth/providers/credentials";
 import { PrismaAdapter } from "@auth/prisma-adapter"
-import { Role } from "@prisma/client"
 import { db } from "@/lib/db"
+
+// Define Role enum to match Prisma schema
+export enum Role {
+  USER = "USER",
+  ADMIN = "ADMIN"
+}
 
 export const { handlers, auth, signIn, signOut, unstable_update } = NextAuth({
   debug: !!process.env.AUTH_DEBUG,
-  theme: { logo: "https://authjs.dev/img/logo-sm.png" },
   adapter: PrismaAdapter(db),
   providers: [
     CredentialsProvider({
@@ -36,24 +37,10 @@ export const { handlers, auth, signIn, signOut, unstable_update } = NextAuth({
         throw new Error("Invalid username or password");
       },
     }),
-    Auth0({
-      issuer: process.env.AUTH0_ISSUER_BASE_URL,
-      clientId: process.env.AUTH0_CLIENT_ID!,
-      clientSecret: process.env.AUTH0_CLIENT_SECRET!,
-    }),
-    GitHub({ 
-      clientId: process.env.AUTH_GITHUB_ID!, 
-      clientSecret: process.env.AUTH_GITHUB_SECRET! 
-    }),
-    Google({ 
-      clientId: process.env.GOOGLE_CLIENT_ID!, 
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET! 
-    }),
   ],
-  basePath: "/api/auth",
   session: {
     strategy: 'jwt',
-    maxAge: +process.env.NEXTAUTH_SECRET_EXPIRES_IN!
+    maxAge: +process.env.NEXTAUTH_SECRET_EXPIRES_IN! || 2592000,
   },
   secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
@@ -62,8 +49,8 @@ export const { handlers, auth, signIn, signOut, unstable_update } = NextAuth({
         user.username = user.email as string;
       }
 
-      if(!user?.password){
-        const salt = await bcrypt.genSalt() as any
+      if (!user?.password) {
+        const salt = await bcrypt.genSalt(10)
         user.password = await bcrypt.hash('Aa123456', salt);
       }
       return true;
@@ -73,11 +60,7 @@ export const { handlers, auth, signIn, signOut, unstable_update } = NextAuth({
       if (pathname === "/middleware-example") return !!auth
       return true
     },
-    async jwt({ token, user, account }) {
-      if (account?.provider === "keycloak") {
-        return { ...token, accessToken: account.access_token }
-      }
-
+    async jwt({ token, user }) {
       if (user) {
         token.id = user.id;
         token.email = user.email;
@@ -97,7 +80,6 @@ export const { handlers, auth, signIn, signOut, unstable_update } = NextAuth({
       return session;
     },
   },
-  experimental: { enableWebAuthn: true },
   trustHost: true,
 })
 

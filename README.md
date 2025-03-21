@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TO-FEEL-AGAIN
 
-## Getting Started
+A side job to my client, landing page with credit card payment
 
-First, run the development server:
+### Project Technologies -
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<img src="https://skillicons.dev/icons?i=typescript,nextjs,tailwind,prisma,postgresql,docker,vscode&perline=7" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation + Running The Application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Steps:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository to your local machine:
+   ```sh
+   git clone https://github.com/Shaybush/to-feel-again.git
+   ```
+2. Open folder:
 
-## Learn More
+   ```sh
+   cd to-feel-again
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Edit .env File :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+    DB_HOST=
+    DB_USER=
+    DB_PASSWORD=
+    DB_NAME=
+    DB_PORT=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    PGADMIN_EMAIL=
+    PGADMIN_PASSWORD=
+   ```
 
-## Deploy on Vercel
+4. Docker compose setup:
+   ```sh
+   docker-compose up -d --build
+   ```
+5. Download Dependencies:
+   ```sh
+   pnpm i
+   ```
+6. Generate prisma:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```sh
+   pnpx prisma generate
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+7. Run Project In Local:
+   ```sh
+   pnpm run dev
+   ```
+
+## Project Photos
