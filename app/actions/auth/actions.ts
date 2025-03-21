@@ -52,7 +52,6 @@ export async function updateDarkMode(formData: FormData): Promise<void> {
     }
 }
 
-
 export const checkAuth = async () => {
     const session = await auth();
     return session

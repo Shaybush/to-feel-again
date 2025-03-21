@@ -62,24 +62,6 @@ const Header = ({
                 Home
               </Link>
               <Link
-                href="/polling"
-                className="
-                                  hover:text-accent-foreground 
-                                  transition
-                                "
-              >
-                Polling
-              </Link>
-              <Link
-                href="/animations"
-                className="
-                                  hover:text-accent-foreground 
-                                  transition
-                                "
-              >
-                Animations
-              </Link>
-              <Link
                 href="/colors"
                 className="
                                   hover:text-accent-foreground 

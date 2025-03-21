@@ -37,17 +37,27 @@ Steps:
    ```sh
    docker-compose up -d --build
    ```
-5. Download Dependencies:
+5. Setup prisma:
+
+   ```sh
+   # for dev migration (it loads migration.sql file)
+   pnpx prisma migrate dev
+
+   # generate the Prisma client
+   pnpx prisma generate
+   ```
+
+6. Download Dependencies:
    ```sh
    pnpm i
    ```
-6. Generate prisma:
+7. Generate prisma:
 
    ```sh
    pnpx prisma generate
    ```
 
-7. Run Project In Local:
+8. Run Project In Local:
    ```sh
    pnpm run dev
    ```
