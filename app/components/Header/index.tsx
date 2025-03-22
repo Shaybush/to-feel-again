@@ -1,5 +1,7 @@
 import { FC } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import Image from "next/image";
 
 export const Header: FC = () => {
   return (
@@ -12,10 +14,15 @@ export const Header: FC = () => {
             className="flex items-center gap-x-8"
           >
             {/* Logo */}
-            ss
-            <a href="/" className="w-32">
-              <img src="/logo.png" alt="Logo" className="w-full h-auto" />
-            </a>
+            <Link href="/" className="w-32">
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                className="w-full h-auto"
+                width={1000}
+                height={1000}
+              />
+            </Link>
           </motion.div>
         </div>
       </nav>

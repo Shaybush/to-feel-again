@@ -3,7 +3,6 @@ import { cookies } from "next/headers";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
-import { auth } from "@/auth";
 
 export const metadata: Metadata = {
   title: "To Feel Again",

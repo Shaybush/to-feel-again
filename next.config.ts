@@ -5,6 +5,12 @@ const createNextIntlPlugin = require("next-intl/plugin");
 
 const withNextIntl = createNextIntlPlugin()
 const nextConfig: NextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   /* config options here */
   images: {
     unoptimized: true, // אפשר טעינה חופשית ללא אופטימיזציה

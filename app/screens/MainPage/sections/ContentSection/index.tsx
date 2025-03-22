@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import HandsOnImage from "@/assets/To Feel Again-22-01-25-54 1.png";
-import VibeImage from "@/assets/Photo Shira.png";
 import styles from "./ContentSection.module.css";
 import { cn } from "@/lib/utils";
 

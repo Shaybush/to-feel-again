@@ -1,5 +1,5 @@
+import Image from "next/image";
 import { FC } from "react";
-import { motion } from "framer-motion";
 
 export const Footer: FC = () => {
   const footerSections = [
@@ -28,7 +28,13 @@ export const Footer: FC = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <img src="/logo-white.png" alt="Logo" className="w-32 mb-4" />
+            <Image
+              src="/logo-white.png"
+              alt="Logo"
+              className="w-32 mb-4"
+              width={1000}
+              height={1000}
+            />
             <p className="text-gray-400 max-w-md">
               תיאור קצר של החברה או המוצר שלך יכול להופיע כאן. זה יכול להיות בן
               שתיים או שלוש שורות.

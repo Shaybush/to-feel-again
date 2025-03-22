@@ -7,6 +7,7 @@ import {
 } from "../../../../components/ui/accordion";
 import { Button } from "../../../../components/ui/button";
 import { Separator } from "../../../../components/ui/separator";
+import Image from "next/image";
 
 export const FooterSection = () => {
   // FAQ data for mapping
@@ -89,10 +90,12 @@ export const FooterSection = () => {
 
         {/* Logo */}
         <div className="flex justify-center my-6">
-          <img
+          <Image
             className="w-[145px] h-[33px]"
             alt="Logo soul shape"
             src="https://c.animaapp.com/eLObDMFN/img/logo---soul-shape-2@2x.png"
+            width={145}
+            height={33}
           />
         </div>
 

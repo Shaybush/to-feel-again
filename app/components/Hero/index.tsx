@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const Hero: FC = () => {
   return (
@@ -33,10 +34,12 @@ export const Hero: FC = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <div className="relative aspect-video md:aspect-square rounded-2xl overflow-hidden">
-            <img
+            <Image
               src="/hero-image.jpg"
               alt="Hero"
               className="w-full h-full object-cover"
+              width={1000}
+              height={1000}
             />
           </div>
         </motion.div>
