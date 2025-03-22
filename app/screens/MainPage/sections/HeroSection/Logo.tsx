@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import LogoSrc from '@/assets/Logo - Soul Shape 1.png';
-import Image from 'next/image';
+import { motion } from "framer-motion";
+import LogoSrc from "@/assets/Logo - Soul Shape 1.png";
+import Image from "next/image";
 
 export default function Logo() {
   return (
@@ -10,7 +10,8 @@ export default function Logo() {
       className="overflow-hidden"
       initial={{ height: 0 }}
       transition={{ duration: 2 }}
-      whileInView={{ height: 'auto' }}
+      viewport={{ once: true, amount: 0.5 }}
+      whileInView={{ height: "auto" }}
     >
       <Image width={50} height={50} src={LogoSrc} alt="Logo" />
     </motion.div>

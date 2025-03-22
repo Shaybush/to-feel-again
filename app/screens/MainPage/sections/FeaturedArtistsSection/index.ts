@@ -1,1 +1,0 @@
-export { FeaturedArtistsSection } from "./FeaturedArtistsSection";

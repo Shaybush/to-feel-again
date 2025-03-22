@@ -1,0 +1,12 @@
+/* TODO -absolute w-full top-0 left-0 z-0 */
+.vibeImage {
+    background-image: linear-gradient(
+        rgba(2, 2, 1, 0.6),
+        rgba(2, 2, 1, 0.6)
+      ),
+      url("../../../../../assets/Photo Shira.png");
+  background-size: cover;
+  background-position: top 25% left 50%;
+  background-repeat: no-repeat;
+
+}

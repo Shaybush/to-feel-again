@@ -48,23 +48,19 @@ Steps:
    ```
 
 6. Download Dependencies:
+
    ```sh
    pnpm i
    ```
-7. Generate prisma:
 
-   ```sh
-   pnpx prisma generate
-   ```
-
-8. Run Project In Local:
+7. Run Project In Local:
    ```sh
    pnpm run dev
    ```
 
 ## Project Photos
 
-9. connect Figma with MCP
+8. connect Figma with MCP
    ```sh
    pnpx figma-developer-mcp --figma-api-key=figd_-7xRgzmtS_hojKT8xtgXFnMo
    HAyuw2c_C-44TtR6

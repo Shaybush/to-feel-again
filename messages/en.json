@@ -37,5 +37,10 @@
     "journey_description1": "באמצעות מוסיקה ודמיון מודרך",
     "journey_description2": "נפגוש את הגרסא האמיתית שלנו",
     "journey_description3": "ותוך כדי זה, נהנה!"
+  },
+  "SuitableAudience": {
+    "title": "למי זה מתאים?",
+    "description": "אנחנו פרקטים, To Feel Again מתעסקת בחיבור לשקט הפנימי שלי בתוך כל הרעש",
+    "tagline": "חופשי להיות אני"
   }
 }

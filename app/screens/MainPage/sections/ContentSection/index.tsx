@@ -3,6 +3,8 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import HandsOnImage from "@/assets/To Feel Again-22-01-25-54 1.png";
 import VibeImage from "@/assets/Photo Shira.png";
+import styles from "./ContentSection.module.css";
+import { cn } from "@/lib/utils";
 
 export const ContentSection = () => {
   const t = useTranslations("Content");
@@ -24,19 +26,24 @@ export const ContentSection = () => {
           <p className="text-2xl font-light">{t("journey_description1")}</p>
           <p className="text-2xl font-light">{t("journey_description2")}</p>
 
-          <div className="h-[300px] w-full justify-center relative">
-            <p className="text-2xl font-light z-10 text-center">
+          <div
+            className={cn(
+              "min-h-[400px] overflow-hidden w-full justify-center relative",
+              styles.vibeImage
+            )}
+          >
+            <p className="text-2xl font-light relative z-10 text-center">
               {t("journey_description3")}
             </p>
 
             {/* Vibe image */}
-            <Image
+            {/* <Image
               className="absolute w-full top-0 left-0 z-0"
               width={460}
               height={300}
               src={VibeImage}
               alt="Content"
-            />
+            /> */}
           </div>
         </div>
       </div>

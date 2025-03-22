@@ -1,9 +1,10 @@
 import React from "react";
+import { FooterSection } from "./sections/FooterSection";
 import { CallToActionSection } from "./sections/CallToActionSection";
+import { HeroSection } from "./sections/HeroSection";
 import { ContentSection } from "./sections/ContentSection";
 import { FeaturedArtistsSection } from "./sections/FeaturedArtistsSection";
-import { FooterSection } from "./sections/FooterSection";
-import { HeroSection } from "./sections/HeroSection";
+import SuitableAudienceSection from "./sections/SuitableAudienceSection";
 
 export const MainPage = () => {
   return (
@@ -14,6 +15,9 @@ export const MainPage = () => {
 
         {/* Content Section */}
         <ContentSection />
+
+        {/* suitable audience section */}
+        <SuitableAudienceSection />
 
         {/* Call To Action Section */}
         {/* <CallToActionSection /> */}
