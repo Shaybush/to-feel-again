@@ -63,3 +63,9 @@ Steps:
    ```
 
 ## Project Photos
+
+9. connect Figma with MCP
+   ```sh
+   pnpx figma-developer-mcp --figma-api-key=figd_-7xRgzmtS_hojKT8xtgXFnMo
+   HAyuw2c_C-44TtR6
+   ```

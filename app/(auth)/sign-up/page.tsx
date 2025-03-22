@@ -1,4 +1,4 @@
-import { SignIn } from "@/app/components/header/components/AuthComponents";
+import { SignIn } from "@/app/components/header2/components/AuthComponents";
 import RegisterForm from "@/app/components/sign-up/RegisterForm";
 import Image from "next/image";
 import Link from "next/link";
