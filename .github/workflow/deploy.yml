@@ -33,5 +33,7 @@ jobs:
 
       - name: Deploy to Vercel
         run: |
-          npm install -g vercel
+          pnpm install -g vercel
+          pnpx prisma migrate dev
+          pnpx prisma generate
           vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }
