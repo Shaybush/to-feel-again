@@ -7,7 +7,7 @@ import {
 } from "../../../../components/ui/accordion";
 import { Card, CardContent } from "../../../../components/ui/card";
 
-export const FeaturedArtistsSection = () => {
+export const FeaturedArtists = () => {
   // FAQ data structure for easier maintenance
   const faqItems = [
     {

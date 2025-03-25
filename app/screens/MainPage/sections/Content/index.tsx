@@ -5,7 +5,7 @@ import HandsOnImage from "@/assets/To Feel Again-22-01-25-54 1.png";
 import styles from "./ContentSection.module.css";
 import { cn } from "@/lib/utils";
 
-export const ContentSection = () => {
+export const Content = () => {
   const t = useTranslations("Content");
 
   return (

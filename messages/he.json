@@ -1,38 +1,24 @@
 {
-  "TodoList": "רשימת משימות",
-  "en": "אנגלית",
-  "he": "עברית",
-  "email": "אימייל",
-  "email_placeholder": "name@company.com",
-  "image_url": "כתובת תמונה",
-  "image_placeholder": "http://image-url.ai.com",
-  "password": "סיסמה",
-  "password_placeholder": "••••••••",
-  "confirm_password": "אימות סיסמה",
-  "terms_accept": "אני מקבל את",
-  "terms_and_conditions": "תנאי השימוש",
-  "sign_up": "הרשמה",
-  "error_something_wrong": "משהו השתבש. אנא נסה שוב מאוחר יותר.",
-  "add_todo": "הוסף משימה",
-  "todo_placeholder": "מה צריך לעשות?",
-  "submit": "שלח",
-  "sign_in": "התחברות",
-  "sign_out": "התנתקות",
   "Hero": {
     "welcome": "WELCOME",
     "get_call": "קיבלת קריאה",
     "get_call_description": "קריאה להרפתקאה",
     "new_things": "איך אנחנו עם דברים חדשים?",
     "call_to_action": "קריאה להרפתקאה",
-    "bottom_quote": "איכות החיים שלנו נמדדת על איך שאנחנו מרגישים",
+    "bottom_quote1": "איכות החיים שלנו נמדדת על",
+    "bottom_quote2": "איך שאנחנו מרגישים",
     "bottom_quote_description": "יש פה משהו בשבילך",
-    "event_slogan": ""
+    "event_slogan": "To Feel Again",
+    "event_date": "08.05.25",
+    "event_location": "\"RUBIZ\" NETANYA | 20:00 - 23:00"
   },
   "Content": {
     "title": "להרגיש מחדש",
     "description": "איך מוצאים את השקט בתוך כל הרעש?",
-    "description_2": "נצא למסע לתוך עצמינו\nבאמצעות מוסיקה ודמיון מודרך\nנפגוש את הגרסא האמיתית שלנו",
-    "description_3": "ותוך כדי זה, נהנה!"
+    "journey_header": "נצא למסע לתוך עצמינו",
+    "journey_description1": "באמצעות מוסיקה ודמיון מודרך",
+    "journey_description2": "נפגוש את הגרסא האמיתית שלנו",
+    "journey_description3": "ותוך כדי זה, נהנה!"
   },
   "SuitableAudience": {
     "title": "למי זה מתאים?",

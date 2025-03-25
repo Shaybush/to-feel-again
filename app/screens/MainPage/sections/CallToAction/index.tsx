@@ -1,6 +1,6 @@
 import { Card, CardContent } from "../../../../components/ui/card";
 
-export const CallToActionSection = () => {
+export const CallToAction = () => {
   const content = {
     title: "למי זה מתאים?",
     description:

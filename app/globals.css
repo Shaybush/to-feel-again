@@ -3,6 +3,11 @@
 @plugin 'tailwindcss-animate';
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face {
+  font-family: 'Cremona';
+  src: url('/fonts/FontsFree-Net-Cremona.ttf') format('truetype');
+}
+
 /* Color Palette */
 :root {
   /* Base Colors */

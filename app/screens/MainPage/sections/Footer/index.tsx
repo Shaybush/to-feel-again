@@ -9,7 +9,7 @@ import { Button } from "../../../../components/ui/button";
 import { Separator } from "../../../../components/ui/separator";
 import Image from "next/image";
 
-export const FooterSection = () => {
+export const Footer = () => {
   // FAQ data for mapping
   const faqItems = [
     {

@@ -12,7 +12,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ["Rubik", "sans-serif"],
+        heebo: ['var(--font-heebo)', 'sans-serif'],
+        cremona: ['var(--font-cremona)', 'serif'],
       },
       keyframes: {
         float: {

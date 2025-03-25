@@ -1,20 +1,19 @@
 import React from "react";
-import { HeroSection } from "./sections/HeroSection";
-import { ContentSection } from "./sections/ContentSection";
-import SuitableAudienceSection from "./sections/SuitableAudienceSection";
+import SuitableAudienceSection from "./sections/SuitableAudience";
+import { Hero } from "./sections/Hero";
 
 export const MainPage = () => {
   return (
     <div className="flex flex-col items-center w-full">
-      <div className="bg-[#020202] w-full max-w-[460px] overflow-hidden">
+      <div className="bg-[#020202] text-white w-full max-w-[460px] overflow-hidden">
         {/* Hero Section */}
-        <HeroSection />
+        <Hero />
 
         {/* Content Section */}
-        <ContentSection />
+        {/* <ContentSection /> */}
 
         {/* suitable audience section */}
-        <SuitableAudienceSection />
+        {/* <SuitableAudienceSection /> */}
 
         {/* Call To Action Section */}
         {/* <CallToActionSection /> */}
