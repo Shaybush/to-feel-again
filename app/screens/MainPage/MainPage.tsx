@@ -3,6 +3,7 @@ import { Hero } from "./Hero";
 import { Content } from "./Content";
 import SuitableAudienceSection from "./SuitableAudience";
 import { CallToAction } from "./CallToAction";
+import { Footer } from "./Footer";
 
 export const MainPage = () => {
   return (
@@ -21,10 +22,7 @@ export const MainPage = () => {
         <CallToAction />
 
         {/* Footer Section */}
-        {/* <FooterSection /> */}
-
-        {/* Featured Artists Section */}
-        {/* <FeaturedArtistsSection /> */}
+        <Footer />
       </div>
     </div>
   );
