@@ -8,7 +8,7 @@
         rgba(2, 2, 1, 0.5),
         rgba(2, 2, 1, 0)
       ),
-      url("../../../../../assets/Dessert View.png");
+      url("../../../../assets/dessert_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@
     rgba(2, 2, 1, 0),
     rgba(2, 2, 1, 0.9)
   ),
-  url("../../../../../assets/To_Feel_Again_Dj_hands_up.png");
+  url("../../../../assets/guy_hands_up.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

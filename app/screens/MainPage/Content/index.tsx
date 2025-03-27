@@ -6,7 +6,7 @@ export const Content = () => {
   const t = useTranslations("Content");
 
   return (
-    <section className="text-[24px] font-[300]">
+    <section className="text-[24px] font-[300] mb-[30px]">
       {/* Feel again section */}
       <h2 className="text-[40px]">{t("title")}</h2>
       <p className="mb-[70px]">{t("description")}</p>

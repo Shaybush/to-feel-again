@@ -4,9 +4,9 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../../../../components/ui/accordion";
-import { Button } from "../../../../components/ui/button";
-import { Separator } from "../../../../components/ui/separator";
+} from "../../../components/ui/accordion";
+import { Button } from "../../../components/ui/button";
+import { Separator } from "../../../components/ui/separator";
 import Image from "next/image";
 
 export const Footer = () => {

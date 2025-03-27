@@ -8,6 +8,10 @@
   src: url('/fonts/FontsFree-Net-Cremona.ttf') format('truetype');
 }
 
+p {
+  line-height: 1.5;
+}
+
 /* Color Palette */
 :root {
   /* Base Colors */

@@ -24,5 +24,10 @@
     "title": "למי זה מתאים?",
     "description": "אנחנו פרקטים, To Feel Again מתעסקת בחיבור לשקט הפנימי שלי בתוך כל הרעש",
     "tagline": "חופשי להיות אני"
+  },
+  "CallToAction": {
+    "header": "נשמע טוב?",
+    "button_context": "It’s time to",
+    "register": "להירשם"
   }
 }

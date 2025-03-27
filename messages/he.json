@@ -22,7 +22,14 @@
   },
   "SuitableAudience": {
     "title": "למי זה מתאים?",
-    "description": "אנחנו פרקטים, To Feel Again מתעסקת בחיבור לשקט הפנימי שלי בתוך כל הרעש",
-    "tagline": "חופשי להיות אני"
+    "description1": "אנחנו פרקטים, To Feel Again",
+    "description2": "מתעסקת בחיבור לשקט הפנימי שלי",
+    "description3": "בתוך כל הרעש",
+    "tagline": "חופשי להיות מי שאני"
+  },
+  "CallToAction": {
+    "header": "נשמע טוב?",
+    "button_context": "It’s time to",
+    "register": "להירשם"
   }
 }

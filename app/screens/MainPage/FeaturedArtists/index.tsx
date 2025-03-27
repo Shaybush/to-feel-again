@@ -4,8 +4,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../../../../components/ui/accordion";
-import { Card, CardContent } from "../../../../components/ui/card";
+} from "../../../components/ui/accordion";
+import { Card, CardContent } from "../../../components/ui/card";
 
 export const FeaturedArtists = () => {
   // FAQ data structure for easier maintenance

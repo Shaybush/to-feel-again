@@ -1,10 +1,12 @@
 import React from "react";
-import { Hero } from "./sections/Hero";
-import { Content } from "./sections/Content";
+import { Hero } from "./Hero";
+import { Content } from "./Content";
+import SuitableAudienceSection from "./SuitableAudience";
+import { CallToAction } from "./CallToAction";
 
 export const MainPage = () => {
   return (
-    <div className="flex flex-col items-center w-full text-center font-['Heebo',Helvetica]">
+    <div className="flex flex-col items-center w-full t-[24px] text-center font-['Heebo',Helvetica]">
       <div className="bg-[#020202] text-white w-full max-w-[460px] overflow-hidden">
         {/* Hero Section */}
         <Hero />
@@ -13,10 +15,10 @@ export const MainPage = () => {
         <Content />
 
         {/* suitable audience section */}
-        {/* <SuitableAudienceSection /> */}
+        <SuitableAudienceSection />
 
         {/* Call To Action Section */}
-        {/* <CallToActionSection /> */}
+        <CallToAction />
 
         {/* Footer Section */}
         {/* <FooterSection /> */}

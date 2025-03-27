@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import React from "react";
-import Logo from "./Logo";
 import { cn } from "@/lib/utils";
 import styles from "./Hero.module.css";
+import LazyYouTube from "@/app/components/LazyYoutube";
+import { Logo } from "@/app/components/ui/Logo";
 
 export const Hero = () => {
   const t = useTranslations("Hero");
@@ -27,18 +27,8 @@ export const Hero = () => {
       </div>
 
       {/* Middle section with screenshot */}
-      {/* TODO - should replace with video */}
       <div className="mb-[140px]">
-        <iframe
-          width="100%"
-          height="345"
-          src="https://www.youtube.com/embed/JIViIQnZP_A?si=6bZBnP2flPOFMcuf"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+        <LazyYouTube videoId="JIViIQnZP_A" title="DJ preview video" />
       </div>
 
       {/* Bottom quote section */}
@@ -53,7 +43,7 @@ export const Hero = () => {
         </p>
 
         {/* Logo */}
-        <div className="min-h-[216px]">
+        <div className="min-h-[251px]">
           <div className="flex items-center justify-center">
             <Logo />
           </div>
