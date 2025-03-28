@@ -5,6 +5,7 @@ import SuitableAudience from "./SuitableAudience";
 import { CallToAction } from "./CallToAction";
 import { FAQ } from "./FAQ";
 import { Footer } from "@/app/components/ui/Footer";
+import styles from "./MainPage.module.css";
 
 export const MainPage = () => {
   return (
@@ -22,11 +23,13 @@ export const MainPage = () => {
         {/* Call To Action Section */}
         <CallToAction />
 
-        {/* FAQs Section */}
-        <FAQ />
+        <div className={styles.dessertBackground}>
+          {/* FAQs Section */}
+          <FAQ />
 
-        {/* Footer Section */}
-        <Footer />
+          {/* Footer Section */}
+          <Footer />
+        </div>
       </div>
     </div>
   );

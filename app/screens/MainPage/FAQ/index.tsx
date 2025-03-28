@@ -32,7 +32,7 @@ export const FAQ = () => {
             className="border-none"
           >
             {/* question */}
-            <AccordionTrigger className="text-[24px] hover:no-underline">
+            <AccordionTrigger className="text-[22px] hover:no-underline">
               {item.question}
             </AccordionTrigger>
 

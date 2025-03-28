@@ -5,7 +5,7 @@ export const CallToAction = () => {
   const t = useTranslations("CallToAction");
 
   return (
-    <section className="text-center flex flex-col items-center justify-center pt-20 mb-[40px] gap-6">
+    <section className="text-center font-[300] flex flex-col items-center justify-center pt-20 mb-[40px] gap-6">
       <h3 className="text-[40px]">{t("header")}</h3>
 
       <CallToActionButton isUseConfettie={true} />
