@@ -11,7 +11,7 @@ export const Content = () => {
       <h2 className="text-[40px]">{t("title")}</h2>
       <p className="mb-[70px]">{t("description")}</p>
 
-      <h3>{t("journey_header")}</h3>
+      <h3 className="text-[34px]">{t("journey_header")}</h3>
       <p>{t("journey_description1")}</p>
       <p>{t("journey_description2")}</p>
 

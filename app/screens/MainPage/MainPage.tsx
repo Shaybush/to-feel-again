@@ -1,9 +1,10 @@
 import React from "react";
 import { Hero } from "./Hero";
 import { Content } from "./Content";
-import SuitableAudienceSection from "./SuitableAudience";
+import SuitableAudience from "./SuitableAudience";
 import { CallToAction } from "./CallToAction";
-import { Footer } from "./Footer";
+import { FAQ } from "./FAQ";
+import { Footer } from "@/app/components/ui/Footer";
 
 export const MainPage = () => {
   return (
@@ -16,10 +17,13 @@ export const MainPage = () => {
         <Content />
 
         {/* suitable audience section */}
-        <SuitableAudienceSection />
+        <SuitableAudience />
 
         {/* Call To Action Section */}
         <CallToAction />
+
+        {/* FAQs Section */}
+        <FAQ />
 
         {/* Footer Section */}
         <Footer />

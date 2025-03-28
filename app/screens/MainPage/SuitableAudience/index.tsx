@@ -4,17 +4,22 @@ import styles from "./SuitableAudience.module.css";
 import Image from "next/image";
 import LogoSrc2 from "@/assets/logo_vertical_v2.png";
 
-export default function SuitableAudienceSection() {
+export default function SuitableAudience() {
   const t = useTranslations("SuitableAudience");
 
   return (
     <section className="text-[24px] font-[300]">
       <h3 className="text-[40px]">{t("title")}</h3>
 
-      <div className="flex flex-col justify-center gap-0 mb-8 mt-2">
+      <div className="mb-8 mt-2">
         <p>{t("description1")}</p>
         <p>{t("description2")}</p>
-        <p>{t("description3")}</p>
+      </div>
+
+      <div className="mb-8">
+        <p>{t("to_feel_again")}</p>
+        <p>{t("to_feel_again_explain_1")}</p>
+        <p>{t("to_feel_again_explain_2")}</p>
       </div>
 
       <p>{t("tagline")}</p>

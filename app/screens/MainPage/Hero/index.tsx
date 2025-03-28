@@ -34,8 +34,8 @@ export const Hero = () => {
       {/* Bottom quote section */}
       <div className="mb-[30px]">
         <div className="text-[32px] mb-[60px] leading-normal">
-          <p>"{t("bottom_quote1")}</p>
-          <p>{t("bottom_quote2")}"</p>
+          <p>{t("bottom_quote1")}</p>
+          <p>{t("bottom_quote2")}</p>
         </div>
 
         <p className="text-[24px] leading-normal mb-[40px]">
@@ -51,7 +51,7 @@ export const Hero = () => {
       </div>
 
       {/* Event section */}
-      <h3 className="font-['Cremona'] text-[55px] font-[400] uppercase">
+      <h3 className="font-['Cremona'] text-[48px] font-[400] uppercase">
         {t("event_slogan")}
       </h3>
       <p className="text-[24px]">{t("event_date")}</p>

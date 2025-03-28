@@ -6,7 +6,7 @@ import { useRef } from "react";
 import { ConfettiClientOnly, ConfettiHandle } from "../ConfettiClientOnly";
 
 const PAYMENT_URL =
-  "https://payments.payplus.co.il/34c5bf4c-8fe8-48c8-9f91-f8884655b0a0";
+  "https://payments.payplus.co.il/l/620253b8-3cb9-4af9-ab5b-96de8f648a33";
 
 export function CallToActionButton({
   isUseConfettie = false,
@@ -39,7 +39,7 @@ export function CallToActionButton({
         onClick={handleClick}
         className="mt-4 px-8 py-6 rounded-full border border-white bg-[#B8F2FF9E] hover:bg-[#6a8d95] text-[24px] text-white font-medium shadow-md [direction:ltr]"
       >
-        {t("button_context")} <span className="font-bold">{t("register")}</span>
+        {t("button_context")} {t("register")}
       </Button>
       <ConfettiClientOnly ref={confettiRef} triggerOnMount={false} />
     </>
