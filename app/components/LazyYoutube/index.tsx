@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { useState } from "react";
-import { PlayButton } from "../ui/PlayButton";
+import { PlayButton } from "@/app/components/ui/PlayButton";
 
 type Props = {
   videoId: string;
