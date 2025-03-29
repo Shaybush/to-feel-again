@@ -62,5 +62,19 @@
       }
     ]
   },
-  "Footer": {}
+  "Footer": {
+    "whoami": "מי אני ?",
+    "contact": "ליצירת קשר",
+    "mail": "info@iam-soul.com"
+  },
+  "OrderCompleted": {
+    "header": "ההזמנה הושלמה!",
+    "wisdomQuote": "החיים תמיד יאירו פנים למי שמעז",
+    "whatNow": "מה עכשיו?",
+    "mailMessage": "בדקות הקרובות ישלח אלייך מייל אישור",
+    "surprise": "[עם כמה הפתעות]",
+    "failMessage": "במידה ולא הגיע אישור הזמנה במייל",
+    "failMessage2": "נא ליצור איתנו קשר",
+    "someOneFire": "ומישהו יפוטר"
+  }
 }
