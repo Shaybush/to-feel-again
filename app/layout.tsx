@@ -19,11 +19,6 @@ const cremona = localFont({
   variable: "--font-cremona",
 });
 
-export const metadata: Metadata = {
-  title: "To Feel Again",
-  description: "Landing page for DJ Guy",
-};
-
 export default async function RootLayout({
   children,
 }: Readonly<{
