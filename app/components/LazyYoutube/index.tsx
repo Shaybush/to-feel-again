@@ -1,8 +1,8 @@
 "use client";
 
-import { PlayButton } from "@/app/tofeelagain/PlayButton";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
+import { PlayButton } from "../ui/playButton";
 
 type Props = {
   videoId: string;
