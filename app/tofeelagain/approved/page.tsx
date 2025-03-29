@@ -1,5 +1,11 @@
 import { Footer } from "@/app/components/ui/Footer";
 import { OrderCompleted } from "./OrderCompleted";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "To Feel Again - Approved",
+  description: "Approved page after payment",
+};
 
 export default function Approved() {
   return (
