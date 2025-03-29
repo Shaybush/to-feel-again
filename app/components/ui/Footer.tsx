@@ -1,11 +1,12 @@
 "use client";
+
 import LogoSoul from "@/assets/logo_soul.png";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import ApplyMusic from "@/assets/apple-music.svg";
 import Instagram from "@/assets/instagram.svg";
 import Spotify from "@/assets/spotify.svg";
-import { Separator } from "@/app/components/ui/Separator";
+import { Separator } from "../../components/ui/Separator";
 import Link from "next/link";
 
 export function Footer() {
