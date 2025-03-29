@@ -6,8 +6,8 @@ import Image from "next/image";
 import ApplyMusic from "@/assets/apple-music.svg";
 import Instagram from "@/assets/instagram.svg";
 import Spotify from "@/assets/spotify.svg";
-import { Separator } from "@/app/components/ui/Separator";
 import Link from "next/link";
+import { Separator } from "@/app/tofeelagain/Separator";
 
 export function Footer() {
   const t = useTranslations("Footer");
