@@ -7,7 +7,7 @@ import { FAQ } from "./FAQ";
 import { Footer } from "@/app/components/ui/Footer";
 import styles from "./MainPage.module.css";
 
-export const MainPage = () => {
+export default function ToDeelAgainPage() {
   return (
     <div className="flex flex-col items-center w-full t-[24px] text-center font-['Heebo',Helvetica]">
       <div className="bg-[#020202] text-white w-full max-w-[460px] overflow-hidden">
@@ -33,4 +33,4 @@ export const MainPage = () => {
       </div>
     </div>
   );
-};
+}

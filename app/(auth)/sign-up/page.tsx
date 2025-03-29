@@ -1,5 +1,5 @@
 import { SignIn } from "@/app/components/AuthComponents";
-import RegisterForm from "@/components/sign-up/RegisterForm";
+import RegisterForm from "@/app/components/RegisterForm";
 import Image from "next/image";
 import Link from "next/link";
 

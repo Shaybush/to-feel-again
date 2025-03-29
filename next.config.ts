@@ -21,7 +21,22 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-
+  async redirects() {
+    return [
+      // Basic redirect
+      {
+        source: '/',
+        destination: '/tofeelagain',
+        permanent: true,
+      },
+      // Wildcard path matching
+      {
+        source: '/blog/:slug',
+        destination: '/news/:slug',
+        permanent: true,
+      },
+    ]
+  },
 };
 
 export default withNextIntl(nextConfig);

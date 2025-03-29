@@ -4,8 +4,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../../../components/ui/accordion";
-import { Separator } from "../../../components/ui/separator";
+} from "../../components/ui/accordion";
+import { Separator } from "../../components/ui/Separator";
 import { CallToActionButton } from "@/app/components/ui/CallToActionButton";
 import { useTranslations } from "next-intl";
 
@@ -14,7 +14,7 @@ export const FAQ = () => {
   const faqItems = t.raw("items") as { question: string; answer: string }[];
 
   return (
-    <footer className="mb-6">
+    <footer className="mb-[100px]">
       {/* FAQ Section */}
       <h2 className="font-normal text-[32px] mb-6 font-['Alata',Helvetica]">
         FAQs
@@ -40,7 +40,7 @@ export const FAQ = () => {
             <Separator className="mx-auto mb-4" />
 
             {/* answer */}
-            <AccordionContent className="text-[18px] whitespace-pre-line">
+            <AccordionContent className="text-[18px] font-[300] whitespace-pre-line">
               {item.answer}
             </AccordionContent>
           </AccordionItem>

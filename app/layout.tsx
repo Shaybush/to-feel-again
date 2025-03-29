@@ -49,7 +49,7 @@ export default async function RootLayout({
         }
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
-          <div className="h-full ">{children}</div>
+          <div className="h-full">{children}</div>
         </NextIntlClientProvider>
       </body>
     </html>

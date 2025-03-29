@@ -9,7 +9,7 @@
         rgba(2, 2, 1, 0.4),
         rgba(2, 2, 1, 1)
       ),
-      url("../../../assets/dessert_bg_2.png");
+      url("../../assets/dessert_bg_2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
