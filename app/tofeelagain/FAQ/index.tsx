@@ -5,9 +5,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "../../components/ui/accordion";
-import { Separator } from "../../components/ui/Separator";
 import { CallToActionButton } from "@/app/components/ui/CallToActionButton";
 import { useTranslations } from "next-intl";
+import { Separator } from "@/app/components/ui/Separator";
 
 export const FAQ = () => {
   const t = useTranslations("FAQ");
