@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Accordion,
   AccordionContent,
@@ -14,7 +13,7 @@ export const FAQ = () => {
   const faqItems = t.raw("items") as { question: string; answer: string }[];
 
   return (
-    <footer className="mb-[100px]">
+    <section className="mb-[100px]">
       {/* FAQ Section */}
       <h2 className="font-normal text-[32px] mb-6 font-['Alata',Helvetica]">
         FAQs
@@ -48,6 +47,6 @@ export const FAQ = () => {
       </Accordion>
 
       <CallToActionButton isUseConfettie={true} />
-    </footer>
+    </section>
   );
 };

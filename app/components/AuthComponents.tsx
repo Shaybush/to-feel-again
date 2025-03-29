@@ -1,4 +1,5 @@
 "use client";
+
 import { signIn, signOut } from "next-auth/react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";

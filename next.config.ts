@@ -37,6 +37,10 @@ const nextConfig: NextConfig = {
       },
     ]
   },
+  webpack: (config) => {
+    config.resolve.alias['@'] = __dirname;
+    return config;
+  },
 };
 
 export default withNextIntl(nextConfig);
