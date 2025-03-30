@@ -11,8 +11,6 @@ import { createMetadata } from "@/lib/seo";
 export const metadata = createMetadata({
   title: "To Feel Again - Landing Page",
   description: "To Feel Again - Landing page for DJ Guy",
-  url: "https://iam-soul.com/tofeelagain",
-  image: "https://i.ibb.co/v6TNqsR8/logo-vertical-v1.png",
 });
 
 export default function ToDeelAgainPage() {

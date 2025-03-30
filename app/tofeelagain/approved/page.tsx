@@ -5,8 +5,6 @@ import { createMetadata } from "@/lib/seo";
 export const metadata = createMetadata({
   title: "To Feel Again - Approved",
   description: "To Feel Again - Approved page after payment",
-  url: "https://iam-soul.com/tofeelagain",
-  image: "https://i.ibb.co/v6TNqsR8/logo-vertical-v1.png",
 });
 
 export default function Approved() {

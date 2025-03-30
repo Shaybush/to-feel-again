@@ -29,6 +29,8 @@ export const metadata = {
     card: "summary_large_image",
     creator: "@Twitter",
   },
+  countryName: "Israel",
+  locale: "he_IL",
 };
 
 export default async function RootLayout({
@@ -50,6 +52,9 @@ export default async function RootLayout({
         darkMode === "true" ? "dark" : ""
       }`}
     >
+      <head>
+        <meta name="country-name" content="Israel" />
+      </head>
       <body
         className={
           "min-h-screen bg-background text-foreground flex flex-col justify-between"
