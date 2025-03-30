@@ -54,6 +54,10 @@ export default async function RootLayout({
     >
       <head>
         <meta name="country-name" content="Israel" />
+        <link rel="canonical" href="https://iam-soul.com" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="DJ Guy Baram Soul" />
+        <meta name="publisher" content="DJ Guy Productions" />
       </head>
       <body
         className={
