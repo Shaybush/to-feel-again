@@ -19,6 +19,18 @@ const cremona = localFont({
   variable: "--font-cremona",
 });
 
+export const metadata = {
+  title: {
+    default: "To Feel Again - Music By Dj Guy Baram",
+    template: "%s | DJ Guy",
+  },
+  description: "Official site of To Feel Again.",
+  twitter: {
+    card: "summary_large_image",
+    creator: "@Twitter",
+  },
+};
+
 export default async function RootLayout({
   children,
 }: Readonly<{

@@ -1,11 +1,13 @@
 import { Footer } from "@/app/components/ui/Footer";
 import { OrderCompleted } from "./OrderCompleted";
-import { Metadata } from "next";
+import { createMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createMetadata({
   title: "To Feel Again - Approved",
-  description: "Approved page after payment",
-};
+  description: "To Feel Again - Approved page after payment",
+  url: "https://iam-soul.com/tofeelagain",
+  image: "https://i.ibb.co/v6TNqsR8/logo-vertical-v1.png",
+});
 
 export default function Approved() {
   return (

@@ -6,12 +6,14 @@ import { CallToAction } from "./CallToAction";
 import { FAQ } from "./FAQ";
 import { Footer } from "@/app/components/ui/Footer";
 import styles from "./MainPage.module.css";
-import { Metadata } from "next";
+import { createMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createMetadata({
   title: "To Feel Again - Landing Page",
-  description: "Landing page for DJ Guy",
-};
+  description: "To Feel Again - Landing page for DJ Guy",
+  url: "https://iam-soul.com/tofeelagain",
+  image: "https://i.ibb.co/v6TNqsR8/logo-vertical-v1.png",
+});
 
 export default function ToDeelAgainPage() {
   return (
