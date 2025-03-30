@@ -54,6 +54,13 @@ export default async function RootLayout({
     >
       <head>
         <meta name="country-name" content="Israel" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/svVTkGYm/Untitled-design.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:type" content="website" />
         <link rel="canonical" href="https://iam-soul.com" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="DJ Guy Baram Soul" />
