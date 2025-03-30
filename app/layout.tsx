@@ -57,6 +57,11 @@ export default async function RootLayout({
         <link rel="canonical" href="https://iam-soul.com" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="DJ Guy Baram Soul" />
+        <meta name="creator" content="DJ Guy Baram Soul" />
+        <meta
+          name="keywords"
+          content="DJ Guy, To Feel Again, music, electronic, live set, party, mix, techno, trance"
+        />
         <meta name="publisher" content="DJ Guy Productions" />
       </head>
       <body
