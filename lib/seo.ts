@@ -8,7 +8,7 @@ export type SEO = {
 export function createMetadata({
     title,
     description,
-    url = 'https://iam-soul.com/tofeelagain',
+    url = 'https://iam-soul.com/to-feel-again',
     image = 'https://i.ibb.co/svVTkGYm/Untitled-design.png',
 }: SEO) {
     return {

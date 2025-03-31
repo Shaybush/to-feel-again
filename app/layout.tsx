@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import "./globals.css";
 import { Heebo } from "next/font/google";
 import localFont from "next/font/local";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import { NEXT_PUBLIC_GA_ID } from "@/consts";
 
 const heebo = Heebo({
   subsets: ["latin"],
@@ -70,6 +70,23 @@ export default async function RootLayout({
           content="DJ Guy, To Feel Again, music, electronic, live set, party, mix, techno, trance"
         />
         <meta name="publisher" content="DJ Guy Productions" />
+
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GA_ID}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${NEXT_PUBLIC_GA_ID}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
       </head>
       <body
         className={

@@ -23,18 +23,12 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // Basic redirect
       {
         source: '/',
         destination: '/to-feel-again',
         permanent: true,
-      },
-      // Wildcard path matching
-      {
-        source: '/blog/:slug',
-        destination: '/news/:slug',
-        permanent: true,
-      },
+
+      }
     ]
   },
   webpack: (config) => {

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "prisma generate && rm -rf .next/cache && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm -rf .next"
   },
   "dependencies": {
     "@auth/core": "^0.38.0",
