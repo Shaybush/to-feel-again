@@ -53,6 +53,8 @@ export default async function RootLayout({
       }`}
     >
       <head>
+        <link rel="canonical" href="https://iam-soul.com/to-feel-again" />
+        <meta name="apple-mobile-web-app-title" content="Soul" />
         <meta name="country-name" content="Israel" />
         <meta
           property="og:image"
@@ -61,7 +63,6 @@ export default async function RootLayout({
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://iam-soul.com/to-feel-again" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="DJ Guy Baram Soul" />
         <meta name="creator" content="DJ Guy Baram Soul" />

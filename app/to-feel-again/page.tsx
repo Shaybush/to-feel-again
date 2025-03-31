@@ -10,12 +10,12 @@ import { FAQ } from "./(components)/FAQ";
 
 export const metadata = createMetadata({
   title: "To Feel Again - The place where music & soul comes to life",
-  description: "To Feel Again - Landing page for DJ Guy",
+  description: "To Feel Again | Soul | להרגיש מחדש",
 });
 
 export default function ToDeelAgainPage() {
   return (
-    <div className="flex flex-col items-center w-full t-[24px] text-center font-['Heebo',Helvetica]">
+    <div className="flex flex-col items-center w-full t-[24px] text-center font-['Heebo',Helvetica] bg-[#020202]">
       <div className="bg-[#020202] text-white w-full max-w-[460px] overflow-hidden">
         {/* Hero Section */}
         <Hero />
