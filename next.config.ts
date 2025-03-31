@@ -26,7 +26,7 @@ const nextConfig: NextConfig = {
       // Basic redirect
       {
         source: '/',
-        destination: '/tofeelagain',
+        destination: '/to-feel-again',
         permanent: true,
       },
       // Wildcard path matching
