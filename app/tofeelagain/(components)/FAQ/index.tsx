@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../../components/ui/accordion";
+} from "@/app/components/ui/accordion";
 import { CallToActionButton } from "@/app/components/ui/CallToActionButton";
 import { Separator } from "@/app/tofeelagain/Separator";
 import { useTranslations } from "next-intl";

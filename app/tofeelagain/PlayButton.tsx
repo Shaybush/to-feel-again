@@ -1,6 +1,6 @@
 import React from "react";
 
-export function PlayButton({ playColor = "#ffffff", bgColor = "#422c20" }) {
+export function PlayButton({ playColor = "#ffffff", bgColor = "#FF0032" }) {
   return (
     <div>
       <svg

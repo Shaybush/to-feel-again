@@ -1,12 +1,12 @@
 import React from "react";
-import { Hero } from "./Hero";
-import { Content } from "./Content";
-import SuitableAudience from "./SuitableAudience";
-import { CallToAction } from "./CallToAction";
-import { FAQ } from "./FAQ";
+import { Hero } from "./(components)/Hero";
+import { Content } from "./(components)/Content";
+import SuitableAudience from "./(components)/SuitableAudience";
+import { CallToAction } from "./(components)/CallToAction";
 import { Footer } from "@/app/components/ui/Footer";
 import styles from "./MainPage.module.css";
 import { createMetadata } from "@/lib/seo";
+import { FAQ } from "./(components)/FAQ";
 
 export const metadata = createMetadata({
   title: "To Feel Again - Landing Page",

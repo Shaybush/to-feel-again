@@ -1,6 +1,6 @@
 /* TODO -absolute w-full top-0 left-0 z-0 */
 .background {
-  background-image: url("../../../assets/dessert_bg.png");
+  background-image: url("../../../../assets/dessert_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@
     rgba(2, 2, 1, 0),
     rgba(2, 2, 1, 0.9)
   ),
-  url("../../../assets/guy_hands_up.png");
+  url("../../../../assets/guy_hands_up.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -15,11 +15,11 @@
       rgba(2, 2, 1, 0),
       rgba(2, 2, 1, 0),
       rgba(2, 2, 1, 0.2),
-      rgba(2, 2, 1, 1)
+      rgba(2, 2, 1, 0)
     ),
-      url("../../../assets/smiling_person.png");
+      url("../../../../assets/smiling_person.png");
   background-size: auto;
-  background-position: left;
+  background-position: 0 0;
   background-repeat: no-repeat;
 }
 
@@ -42,8 +42,8 @@
       rgba(2, 2, 1, 0),
       rgba(2, 2, 1, 0)
     ),
-    url("../../../assets/enjoying_person.png");
+    url("../../../../assets/enjoying_person.png");
 background-size: auto;
-background-position: 100px 0;
+background-position: 80px 0;
 background-repeat: no-repeat;
 }

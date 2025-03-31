@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./SuitableAudience.module.css";
 import Image from "next/image";
 import LogoSrc2 from "@/assets/logo_vertical_v2.png";
+import Wave from "@/assets/wave.svg";
 
 export default function SuitableAudience() {
   const t = useTranslations("SuitableAudience");
@@ -33,7 +34,7 @@ export default function SuitableAudience() {
 
         {/* Wavy Line */}
         <div className="absolute flex items-center justify-center inset-0">
-          <Image className="h-5/6" src={LogoSrc2} alt="logo" />
+          <Image className="h-full opacity-65" src={Wave} alt="logo" />
         </div>
       </div>
     </section>

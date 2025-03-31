@@ -11,7 +11,7 @@ export function Logo({ secLogo = false, styleClass = "" }) {
       className="overflow-hidden"
       initial={{ height: 0 }}
       transition={{ duration: 2 }}
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true, amount: 1 }}
       whileInView={{ height: "auto" }}
     >
       <Image
