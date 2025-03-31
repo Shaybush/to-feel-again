@@ -21,10 +21,10 @@ const cremona = localFont({
 
 export const metadata = {
   title: {
-    default: "To Feel Again - Music By Dj Guy Baram",
-    template: "%s | DJ Guy",
+    default: "To Feel Again - The place where music & soul comes to life",
+    template: "%s | Soul",
   },
-  description: "Official site of To Feel Again.",
+  description: "",
   twitter: {
     card: "summary_large_image",
     creator: "@Twitter",
@@ -61,7 +61,7 @@ export default async function RootLayout({
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://iam-soul.com" />
+        <link rel="canonical" href="https://iam-soul.com/to-feel-again" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="DJ Guy Baram Soul" />
         <meta name="creator" content="DJ Guy Baram Soul" />

@@ -9,7 +9,7 @@ import { createMetadata } from "@/lib/seo";
 import { FAQ } from "./(components)/FAQ";
 
 export const metadata = createMetadata({
-  title: "To Feel Again - Landing Page",
+  title: "To Feel Again - The place where music & soul comes to life",
   description: "To Feel Again - Landing page for DJ Guy",
 });
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { PlayButton } from "@/app/tofeelagain/PlayButton";
+import { PlayButton } from "@/app/to-feel-again/PlayButton";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 
