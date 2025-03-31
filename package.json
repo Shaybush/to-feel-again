@@ -7,6 +7,7 @@
     "build": "prisma generate && rm -rf .next/cache && next build",
     "start": "next start",
     "lint": "next lint",
+    "lint-fix": "next lint --fix",
     "clean": "rm -rf .next",
     "check-manifest": "pnpx realfavicon check 3000"
   },
