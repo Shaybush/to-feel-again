@@ -24,13 +24,35 @@ export const metadata = {
     default: 'To Feel Again - The place where music & soul comes to life',
     template: '%s | Soul',
   },
-  description: '',
+  description: 'To Feel Again | Soul | להרגיש מחדש',
+  openGraph: {
+    title: 'To Feel Again - The place where music & soul comes to life',
+    description: 'To Feel Again | Soul | להרגיש מחדש',
+    url: 'https://iam-soul.com/to-feel-again',
+    siteName: 'To Feel Again',
+    images: [
+      {
+        url: '/IG-Ads.png',
+        width: 1200,
+        height: 630,
+        alt: 'To Feel Again Preview',
+      },
+    ],
+    locale: 'he_IL',
+    type: 'website',
+  },
   twitter: {
     card: 'summary_large_image',
     creator: '@Twitter',
+    images: ['/IG-Ads.png'],
   },
-  countryName: 'Israel',
-  locale: 'he_IL',
+  alternates: {
+    canonical: 'https://iam-soul.com/to-feel-again',
+  },
+  authors: [{ name: 'DJ Guy Baram Soul' }],
+  creator: 'DJ Guy Baram Soul',
+  publisher: 'DJ Guy Productions',
+  keywords: ['DJ Guy', 'To Feel Again', 'music', 'electronic', 'live set', 'party', 'mix', 'techno', 'trance'],
 };
 
 export default async function RootLayout({
