@@ -32,7 +32,7 @@ export const metadata = {
     siteName: 'To Feel Again',
     images: [
       {
-        url: '/IG-Ads.png',
+        url: 'https://iam-soul.com/IG-Ads.png',
         width: 1200,
         height: 630,
         alt: 'To Feel Again Preview',
@@ -44,7 +44,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     creator: '@Twitter',
-    images: ['/IG-Ads.png'],
+    images: ['https://iam-soul.com/IG-Ads.png'],
   },
   alternates: {
     canonical: 'https://iam-soul.com/to-feel-again',
@@ -69,19 +69,6 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={dir} className={`${heebo.variable} ${cremona.variable} ${darkMode === 'true' ? 'dark' : ''}`}>
       <head>
-        <link rel="canonical" href="https://iam-soul.com/to-feel-again" />
-        <meta name="apple-mobile-web-app-title" content="Soul" />
-        <meta name="country-name" content="Israel" />
-        <meta property="og:image" content="/IG-Ads.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:type" content="website" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="DJ Guy Baram Soul" />
-        <meta name="creator" content="DJ Guy Baram Soul" />
-        <meta name="keywords" content="DJ Guy, To Feel Again, music, electronic, live set, party, mix, techno, trance" />
-        <meta name="publisher" content="DJ Guy Productions" />
-
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${NEXT_PUBLIC_GA_ID}`}></script>
         <script
           dangerouslySetInnerHTML={{
