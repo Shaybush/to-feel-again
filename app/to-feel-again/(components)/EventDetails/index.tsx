@@ -10,7 +10,7 @@ export default function EventDetails() {
   const t = useTranslations('Hero');
 
   return (
-    <>
+    <div>
       {/* Slide in from left when in view */}
       <motion.h3
         initial={{ x: -100, opacity: 0 }}
@@ -34,26 +34,28 @@ export default function EventDetails() {
       </motion.p>
 
       <div className={cn('text-[24px]', styles.djBackground)}>
-        {/* Zoom out when in view */}
+        {/* Zoom out with delay when in view */}
         <motion.p
+          className="mb-2"
           initial={{ scale: 1.5, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          {t('event_location')}
+          {t('event_time')}
         </motion.p>
 
-        {/* Zoom out with delay when in view */}
+        {/* Zoom out when in view */}
         <motion.p
+          className="[direction:ltr]"
           initial={{ scale: 1.5, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
           viewport={{ once: true, amount: 0.5 }}
         >
-          {t('event_time')}
+          {t('event_location')}
         </motion.p>
       </div>
-    </>
+    </div>
   );
 }
