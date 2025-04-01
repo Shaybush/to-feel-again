@@ -50,7 +50,7 @@ export default async function RootLayout({
         <link rel="canonical" href="https://iam-soul.com/to-feel-again" />
         <meta name="apple-mobile-web-app-title" content="Soul" />
         <meta name="country-name" content="Israel" />
-        <meta property="og:image" content="https://i.ibb.co/9mdZzbbm/IG-Ads-TFA-CTA.png" />
+        <meta property="og:image" content="https://res.cloudinary.com/dpmpi8dwb/image/upload/v1743534015/IG_Ads_-_TFA_CTA_1_u0dcjr.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />

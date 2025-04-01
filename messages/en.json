@@ -4,13 +4,15 @@
     "get_call": "קיבלת קריאה",
     "get_call_description": "קריאה להרפתקאה",
     "new_things": "איך אנחנו עם דברים חדשים?",
+    "click_me": "תלחצו עלי :)",
     "call_to_action": "קריאה להרפתקאה",
     "bottom_quote1": "איכות החיים שלנו נמדדת על",
     "bottom_quote2": "איך שאנחנו מרגישים",
     "bottom_quote_description": "יש פה משהו בשבילך",
     "event_slogan": "To Feel Again",
     "event_date": "08.05.25",
-    "event_location": "\"RUBIZ\" NETANYA | 20:00 - 23:00"
+    "event_location": "\"RUBIZ\" NETANYA",
+    "event_time": "20:00 - 23:00"
   },
   "Content": {
     "title": "להרגיש מחדש",

@@ -10,9 +10,8 @@
       rgba(2, 2, 1, 0.2),
       rgba(2, 2, 1, 1)
     ),
-    url("../../../../assets/woman_vibe.jpeg");
+    url("https://res.cloudinary.com/dpmpi8dwb/image/upload/v1743530160/woman_vibe_wln20k.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }
