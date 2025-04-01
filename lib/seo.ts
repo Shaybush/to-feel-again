@@ -18,28 +18,23 @@ export function createMetadata({
             title,
             description,
             url,
-            siteName: 'To Feel Again',
-            type: 'website',
-            locale: 'he_IL',
+            type: "website",
+            locale: "he_IL",
             images: [
                 {
                     url: image,
                     width: 1200,
                     height: 630,
                     alt: title,
-                    type: 'image/png',
                 },
             ],
         },
         twitter: {
-            card: 'summary_large_image',
+            card: "summary_large_image",
             title,
             description,
             images: [image],
-            creator: '@Twitter',
-        },
-        alternates: {
-            canonical: url,
+            creator: "@Twitter",
         },
     };
 }
