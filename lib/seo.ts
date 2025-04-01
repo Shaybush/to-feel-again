@@ -9,7 +9,7 @@ export function createMetadata({
     title,
     description,
     url = 'https://iam-soul.com/to-feel-again',
-    image = 'https://i.ibb.co/svVTkGYm/Untitled-design.png',
+    image = '/IG-Ads.png',
 }: SEO) {
     return {
         title,
@@ -19,7 +19,7 @@ export function createMetadata({
             description,
             url,
             type: "website",
-            locale: "he_IL", // or "he_IL" for Hebrew/Israel
+            locale: "he_IL",
             images: [
                 {
                     url: image,
