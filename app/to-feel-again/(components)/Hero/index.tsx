@@ -12,7 +12,7 @@ export const Hero = () => {
   return (
     <main className={`${cn('pt-[100px] font-[300]', styles.background)}`}>
       {/* Welcome heading */}
-      <div className="mb-[30px]">
+      <div className="mb-[15px]">
         <h1 className="font-['Cremona'] font-[400] text-[65px] whitespace-nowrap mb-[50px]">{t('welcome')}</h1>
 
         <div className="text-[30px]">
@@ -22,7 +22,7 @@ export const Hero = () => {
           </p>
 
           <p>{t('new_things')}</p>
-          <p className="text-[20px]">{t('click_me')}</p>
+          <p className="text-[20px] mt-[15px]">{t('click_me')}</p>
         </div>
       </div>
 
