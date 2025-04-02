@@ -42,12 +42,3 @@ Where appropriate, implement animations and transitions using Framer Motion. Con
 Remember to focus on accurately reproducing the design from the screenshot while incorporating the additional instructions provided. Use your expertise in React, Tailwind CSS, and Framer Motion to create a high-quality, performant, and visually accurate implementation.
 
 - Important: I already created home folder the functionallity should be implemented as mentioned above. Import all the small components you created into this folder. For Figma: You can find all the images under assets folder, full path: "TO-FEEL-AGAIN/assets". if one of the photo you need not there yet you allow to donwload it from figma.
-
-[title] = "איך אני יודע אם זה מתאים לי"
-[context1] = "אנחנו חיים באמונה שדומה מושך דומה
-ככה שלא סתם הגעת לפה
-כמו החיים, אי אפשר לדעת 
-עד שלא קופצים למים.
-לכן יש החזר כספי, אז אי אפשר לטעות :)
-
-נ.ב - הכלל שלי הוא,אם זה מלחיץ אותי, אז אני עושה את זה"
