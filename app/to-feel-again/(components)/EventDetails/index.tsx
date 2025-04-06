@@ -33,7 +33,7 @@ export default function EventDetails() {
         {t('event_date')}
       </motion.p>
 
-      <div className={cn('text-[24px]', styles.djBackground)}>
+      <div className={cn('text-[24px] [direction:ltr]', styles.djBackground)}>
         {/* Zoom out with delay when in view */}
         <motion.p
           className="mb-2"
