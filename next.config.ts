@@ -26,8 +26,7 @@ const nextConfig: NextConfig = {
       {
         source: '/',
         destination: '/to-feel-again',
-        permanent: true,
-
+        permanent: false,
       }
     ]
   },
