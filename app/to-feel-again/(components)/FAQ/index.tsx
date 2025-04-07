@@ -41,6 +41,8 @@ export const FAQ = () => {
         ))}
       </Accordion>
 
+      <h2 className="text-[24px] font-extralight">{t('wisdom_sentence')}</h2>
+      <small className="block text-[14px] font-extralight mb-3">{t('by')}</small>
       <CallToActionButton isUseConfettie={true} />
     </section>
   );
