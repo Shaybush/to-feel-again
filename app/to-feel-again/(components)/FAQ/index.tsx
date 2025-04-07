@@ -13,7 +13,7 @@ export const FAQ = () => {
       {/* FAQ Section */}
       <h2 className="font-normal text-[32px] mb-6 font-['Alata',Helvetica]">FAQs</h2>
 
-      <Accordion type="single" collapsible className="w-5/6 mx-auto mb-6 font-[200]">
+      <Accordion type="single" collapsible className="w-5/6 mx-auto mb-12 font-[200]">
         {faqItems.map((item, index) => (
           <AccordionItem key={index} value={`item-${index}`} className="border-none">
             {/* question */}
@@ -41,8 +41,8 @@ export const FAQ = () => {
         ))}
       </Accordion>
 
-      <h2 className="text-[24px] font-extralight">{t('wisdom_sentence')}</h2>
-      <small className="block text-[14px] font-extralight mb-3">{t('by')}</small>
+      <h2 className="text-[24px]">{t('wisdom_sentence')}</h2>
+      <small className="block text-[14px] mb-3">{t('by')}</small>
       <CallToActionButton isUseConfettie={true} />
     </section>
   );
