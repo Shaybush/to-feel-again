@@ -5,6 +5,7 @@ import localFont from 'next/font/local';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
 import { NEXT_PUBLIC_GA_ID } from '@/consts';
+import Script from 'next/script';
 
 const heebo = Heebo({
   subsets: ['latin'],
